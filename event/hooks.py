@@ -105,6 +105,12 @@ app_license = "MIT"
 # has_permission = {
 #	"Event": "frappe.desk.doctype.event.event.has_permission",
 # }
+#fixtures
+fixtures = [{"dt":"Workflow","filters":[["name","in",["Hello","Demo"]]]},
+            {"dt":"Workflow State"},
+            {"dt":"Website Slideshow"},
+            {"dt":"Website Settings"},
+            {"dt":"Web Page"}]
 
 # DocType Class
 # ---------------
