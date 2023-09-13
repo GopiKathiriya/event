@@ -44,13 +44,14 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-09-13 17:00:41.094938",
+ "modified": "2023-09-13 17:15:17.024133",
  "modified_by": "Administrator",
  "module": "event",
  "name": "Employee1",
  "owner": "Administrator",
  "permissions": [
   {
+   "create": 1,
    "delete": 1,
    "email": 1,
    "export": 1,
@@ -62,7 +63,6 @@
    "write": 1
   },
   {
-   "create": 1,
    "delete": 1,
    "email": 1,
    "export": 1,
