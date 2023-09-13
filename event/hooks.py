@@ -110,7 +110,10 @@ fixtures = [{"dt":"Workflow","filters":[["name","in",["Hello","Demo"]]]},
             {"dt":"Workflow State"},
             {"dt":"Website Slideshow"},
             {"dt":"Website Settings"},
-            {"dt":"Web Page"}]
+            {"dt":"Web Page"},
+            {"dt":"Role","filyers":[["name","in",["custom manager"]]]}
+            ]
+
 
 # DocType Class
 # ---------------
