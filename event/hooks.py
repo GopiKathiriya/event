@@ -6,6 +6,7 @@ app_publisher = "frappe"
 app_description = "event"
 app_email = "frappe@gmail.com"
 app_license = "MIT"
+app_logo_url = "/assets/event/img/abc.jpg"
 
 # Includes in <head>
 # ------------------
