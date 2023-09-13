@@ -1,0 +1,228 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow",
+  "document_type": "Custom Type",
+  "is_active": 1,
+  "modified": "2023-09-13 15:58:20.181000",
+  "name": "Hello",
+  "override_status": 0,
+  "send_email_alert": 0,
+  "states": [
+   {
+    "allow_edit": "custom manager",
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Hello",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Draft",
+    "update_field": "status",
+    "update_value": "Draft"
+   },
+   {
+    "allow_edit": "custom manager",
+    "doc_status": "1",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Hello",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Pending",
+    "update_field": "status",
+    "update_value": "Pending"
+   },
+   {
+    "allow_edit": "custom manager",
+    "doc_status": "1",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Hello",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Approved",
+    "update_field": "status",
+    "update_value": "Approved"
+   },
+   {
+    "allow_edit": "custom manager",
+    "doc_status": "2",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Hello",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Rejected",
+    "update_field": "status",
+    "update_value": "Rejected"
+   }
+  ],
+  "transitions": [
+   {
+    "action": "Request for approve",
+    "allow_self_approval": 1,
+    "allowed": "custom manager",
+    "condition": null,
+    "next_state": "Pending",
+    "parent": "Hello",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Draft"
+   },
+   {
+    "action": "Approve",
+    "allow_self_approval": 1,
+    "allowed": "custom manager",
+    "condition": null,
+    "next_state": "Approved",
+    "parent": "Hello",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Pending"
+   },
+   {
+    "action": "Reject",
+    "allow_self_approval": 1,
+    "allowed": "custom manager",
+    "condition": null,
+    "next_state": "Rejected",
+    "parent": "Hello",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Pending"
+   }
+  ],
+  "workflow_name": "Hello",
+  "workflow_state_field": "workflow_state"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow",
+  "document_type": "Employee1",
+  "is_active": 1,
+  "modified": "2023-09-13 16:55:53.228744",
+  "name": "Demo",
+  "override_status": 0,
+  "send_email_alert": 0,
+  "states": [
+   {
+    "allow_edit": "custom manager",
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Demo",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Draft",
+    "update_field": "status",
+    "update_value": "Draft"
+   },
+   {
+    "allow_edit": "custom manager",
+    "doc_status": "1",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Demo",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Pending",
+    "update_field": "status",
+    "update_value": "Pending"
+   },
+   {
+    "allow_edit": "custom manager",
+    "doc_status": "1",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Demo",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Approved",
+    "update_field": "status",
+    "update_value": "Approved"
+   },
+   {
+    "allow_edit": "custom manager",
+    "doc_status": "2",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Demo",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Rejected",
+    "update_field": "status",
+    "update_value": "Rejected"
+   },
+   {
+    "allow_edit": "custom manager",
+    "doc_status": "1",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Demo",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Submited",
+    "update_field": "status",
+    "update_value": "Submited"
+   }
+  ],
+  "transitions": [
+   {
+    "action": "Request for approve",
+    "allow_self_approval": 1,
+    "allowed": "custom manager",
+    "condition": null,
+    "next_state": "Pending",
+    "parent": "Demo",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Draft"
+   },
+   {
+    "action": "Approve",
+    "allow_self_approval": 1,
+    "allowed": "custom manager",
+    "condition": null,
+    "next_state": "Approved",
+    "parent": "Demo",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Pending"
+   },
+   {
+    "action": "Reject",
+    "allow_self_approval": 1,
+    "allowed": "custom manager",
+    "condition": null,
+    "next_state": "Rejected",
+    "parent": "Demo",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Pending"
+   },
+   {
+    "action": "submit",
+    "allow_self_approval": 1,
+    "allowed": "custom manager",
+    "condition": null,
+    "next_state": "Submited",
+    "parent": "Demo",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Approved"
+   }
+  ],
+  "workflow_name": "Demo",
+  "workflow_state_field": "workflow_state"
+ }
+]
