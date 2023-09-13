@@ -80,7 +80,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-09-13 14:45:28.586369",
+ "modified": "2023-09-13 15:11:13.505814",
  "modified_by": "Administrator",
  "module": "event",
  "name": "Custom Type",
@@ -100,7 +100,6 @@
    "write": 1
   },
   {
-   "create": 1,
    "delete": 1,
    "email": 1,
    "export": 1,
