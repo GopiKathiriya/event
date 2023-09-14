@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "EMP-.##",
  "creation": "2023-09-04 17:02:52.940947",
  "default_view": "List",
  "doctype": "DocType",
@@ -44,10 +45,11 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-09-13 17:15:17.024133",
+ "modified": "2023-09-14 17:44:41.452313",
  "modified_by": "Administrator",
  "module": "event",
  "name": "Employee1",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
