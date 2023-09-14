@@ -139,23 +139,29 @@ fixtures = [{"dt":"Workflow","filters":[["name","in",["Hello","Demo"]]]},
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-#	"all": [
-#		"event.tasks.all"
-#	],
-#	"daily": [
-#		"event.tasks.daily"
-#	],
-#	"hourly": [
-#		"event.tasks.hourly"
-#	],
-#	"weekly": [
-#		"event.tasks.weekly"
-#	],
-#	"monthly": [
-#		"event.tasks.monthly"
-#	],
-# }
+scheduler_events = {
+
+    "corn": {
+        " * * * * * ": [
+            "event.tasks.corn"
+        ]
+    },
+    # "all": [
+	# 	"event.tasks.all"
+	# ],
+	# "daily": [
+	# 	"event.tasks.daily"
+	# ],
+	# "hourly": [
+	# 	"event.tasks.hourly"
+	# ],
+	# "weekly": [
+	# 	"event.tasks.weekly"
+	# ],
+	# "monthly": [
+	# 	"event.tasks.monthly"
+	# ],
+}
 
 # Testing
 # -------
