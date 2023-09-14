@@ -6,7 +6,7 @@ app_publisher = "frappe"
 app_description = "event"
 app_email = "frappe@gmail.com"
 app_license = "MIT"
-app_logo_url = "/assets/event/img/abc.jpg"
+# app_logo_url = "/assets/event/https://media.istockphoto.com/id/1345681613/vector/creative-people-logo-vector-illustration-design-editable-resizable-eps-10.jpg?s=612x612&w=0&k=20&c=9XUHICA1ljbxBcLw8ERp0kDDxLNQ8Bp2yR4aUSS6SBs="
 
 # Includes in <head>
 # ------------------
