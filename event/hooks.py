@@ -112,7 +112,7 @@ fixtures = [{"dt":"Workflow","filters":[["name","in",["Hello","Demo"]]]},
             {"dt":"Website Slideshow"},
             {"dt":"Website Settings"},
             {"dt":"Web Page"},
-            {"dt":"Role","filyers":[["name","in",["custom manager"]]]}
+            {"dt":"Role","filters":[["name","in",["custom manager"]]]}
             ]
 
 
@@ -143,17 +143,18 @@ scheduler_events = {
 
     "corn": {
         " * * * * * ": [
-            "event.tasks.corn"
+            "event.templates.tasks.corn"
         ]
     },
     # "all": [
 	# 	"event.tasks.all"
 	# ],
-	# "daily": [
-	# 	"event.tasks.daily"
-	# ],
+	"daily": [
+		"event.templates.tasks.daily"
+	],
 	# "hourly": [
-	# 	"event.tasks.hourly"
+	# 	"event.templates.tasks.corn"
+    
 	# ],
 	# "weekly": [
 	# 	"event.tasks.weekly"
