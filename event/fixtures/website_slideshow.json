@@ -3,13 +3,13 @@
   "docstatus": 0,
   "doctype": "Website Slideshow",
   "header": null,
-  "modified": "2023-09-13 17:47:26.703905",
+  "modified": "2023-09-14 16:50:27.264623",
   "name": "home",
   "slideshow_items": [
    {
     "description": "Starting with basic....",
     "heading": null,
-    "image": "/files/b.webp",
+    "image": "https://www.managementors.co.uk/wp-content/uploads/2019/03/Team-Development-1110x550.jpeg",
     "parent": "home",
     "parentfield": "slideshow_items",
     "parenttype": "Website Slideshow",
@@ -18,7 +18,7 @@
    {
     "description": "Learing...",
     "heading": null,
-    "image": "/files/a.jpg",
+    "image": "https://www.multidots.com/wp-content/uploads/2020/01/code-quality-standard.png?quality=90",
     "parent": "home",
     "parentfield": "slideshow_items",
     "parenttype": "Website Slideshow",
@@ -27,7 +27,7 @@
    {
     "description": "Succes",
     "heading": null,
-    "image": "/files/c.jpg",
+    "image": "https://varthana.com/school/wp-content/uploads/2023/02/B193.jpg",
     "parent": "home",
     "parentfield": "slideshow_items",
     "parenttype": "Website Slideshow",
