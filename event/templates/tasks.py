@@ -2,7 +2,7 @@ import frappe
 import string
 import random
 
-def corn():
+def cron():
 
     print("/n/n New Note Inserted /n/n")
     letters = string.ascii_letters
