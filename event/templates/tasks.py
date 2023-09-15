@@ -3,8 +3,14 @@ import string
 import random
 from frappe.utils import now_datetime, add_days
 
+<<<<<<< Updated upstream
 def corn():
    
+=======
+def cron():
+
+    print("/n/n New Note Inserted /n/n")
+>>>>>>> Stashed changes
     letters = string.ascii_letters
     note = " ".join(random.choice(letters) for i in range(5))
 
