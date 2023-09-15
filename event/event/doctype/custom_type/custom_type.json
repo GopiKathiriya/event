@@ -71,7 +71,6 @@
    "label": "Maximum Limit"
   },
   {
-   "allow_on_submit": 1,
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
@@ -82,7 +81,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-09-14 18:09:26.164536",
+ "modified": "2023-09-15 17:53:48.960453",
  "modified_by": "Administrator",
  "module": "event",
  "name": "Custom Type",

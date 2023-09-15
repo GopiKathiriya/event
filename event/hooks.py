@@ -141,9 +141,9 @@ fixtures = [{"dt":"Workflow","filters":[["name","in",["Hello","Demo"]]]},
 
 scheduler_events = {
 
-    "corn": {
+    "cron": {
         " * * * * * ": [
-            "event.templates.tasks.corn"
+            "event.templates.tasks.cron"
         ]
     },
     # "all": [

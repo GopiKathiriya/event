@@ -3,8 +3,8 @@ import string
 import random
 from frappe.utils import now_datetime, add_days
 
+
 def corn():
-   
     letters = string.ascii_letters
     note = " ".join(random.choice(letters) for i in range(5))
 
