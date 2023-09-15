@@ -143,7 +143,7 @@ scheduler_events = {
 
     "corn": {
         " * * * * * ": [
-            "event.tasks.corn"
+            "event.templates.tasks.corn"
         ]
     },
     # "all": [
