@@ -12,11 +12,11 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/event/css/event.css"
+app_include_css = "/assets/event/css/event.css"
 # app_include_js = "/assets/event/js/event.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/event/css/event.css"
+web_include_css = "/assets/event/css/event.css"
 # web_include_js = "/assets/event/js/event.js"
 
 # include custom scss in every website theme (without file extension ".scss")
