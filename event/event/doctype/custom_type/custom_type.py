@@ -28,14 +28,6 @@ class CustomType(Document):
 def get_class():
     return CustomType
 
-#validate event
-# class CustomType(Document):
-#     def validate(self):
-        
-#         if self.last_name == "invalid_value":
-#             frappe.throw(("Invalid value for 'last_name'. Please provide a valid value."))
 
 
-# def get_class():
-#     return CustomType
 
