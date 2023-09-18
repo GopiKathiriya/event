@@ -42,8 +42,15 @@
    "label": "Date Of Birth"
   },
   {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nPending\nApproved\nRejected",
+   "read_only": 1
+  },
+  {
    "fieldname": "age",
-   "fieldtype": "Data",
+   "fieldtype": "Int",
    "label": "Age"
   },
   {
@@ -69,23 +76,12 @@
    "fieldname": "maximum_limit",
    "fieldtype": "Data",
    "label": "Maximum Limit"
-  },
-  {
-   "fieldname": "status",
-   "fieldtype": "Select",
-   "label": "Status",
-   "options": "Draft\nPending\nApproved\nRejected",
-   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
-<<<<<<< Updated upstream
- "modified": "2023-09-18 11:14:32.770661",
-=======
- "modified": "2023-09-15 17:53:48.960453",
->>>>>>> Stashed changes
+ "modified": "2023-09-18 17:03:31.112385",
  "modified_by": "Administrator",
  "module": "event",
  "name": "Custom Type",

@@ -13,7 +13,7 @@ frappe.query_reports["demo report"] = {
 		{
 			'fieldname':'age',
 			'label':'Age',
-			'fieldtype':'Data'
+			'fieldtype':'Int'
 		},
 
 	]
