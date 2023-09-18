@@ -12,7 +12,7 @@ def execute(filters=None):
         labels.append(k['date_of_birth'])
         values.append(k['age'])
         chart = {
-        "type": "bar",
+        "type": "pie",
         "data": {
 			"labels": labels,
 			"datasets": [
