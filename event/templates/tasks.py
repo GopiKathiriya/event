@@ -4,9 +4,12 @@ import random
 from frappe.utils import now_datetime, add_days
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 def corn():
    
 =======
+=======
+>>>>>>> Stashed changes
 def cron():
 
     print("/n/n New Note Inserted /n/n")
