@@ -42,8 +42,15 @@
    "label": "Date Of Birth"
   },
   {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nPending\nApproved\nRejected",
+   "read_only": 1
+  },
+  {
    "fieldname": "age",
-   "fieldtype": "Data",
+   "fieldtype": "Int",
    "label": "Age"
   },
   {
@@ -69,6 +76,7 @@
    "fieldname": "maximum_limit",
    "fieldtype": "Data",
    "label": "Maximum Limit"
+
   },
   {
    "fieldname": "status",
@@ -76,12 +84,13 @@
    "label": "Status",
    "options": "Draft\nPending\nApproved\nRejected",
    "read_only": 1
+
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-09-15 17:53:48.960453",
+
  "modified_by": "Administrator",
  "module": "event",
  "name": "Custom Type",
@@ -103,7 +112,6 @@
    "write": 1
   },
   {
-   "cancel": 1,
    "create": 1,
    "delete": 1,
    "email": 1,
@@ -112,9 +120,7 @@
    "read": 1,
    "report": 1,
    "role": "custom manager",
-   "select": 1,
    "share": 1,
-   "submit": 1,
    "write": 1
   }
  ],

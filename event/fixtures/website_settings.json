@@ -1,8 +1,8 @@
 [
  {
   "address": null,
-  "app_logo": null,
-  "app_name": "Frappe",
+  "app_logo": "https://cdn5.vectorstock.com/i/thumb-large/69/29/leader-education-logo-design-vector-31746929.jpg",
+  "app_name": "Event",
   "auto_account_deletion": 72,
   "banner_html": null,
   "banner_image": "https://t3.ftcdn.net/jpg/03/91/37/12/360_F_391371227_OOPKuywmf6dqwOTsw4Dfu0iDejLKyZZC.jpg",
@@ -29,7 +29,7 @@
   "home_page": "home",
   "indexing_authorization_code": null,
   "indexing_refresh_token": null,
-  "modified": "2023-09-14 16:52:24.424231",
+  "modified": "2023-09-16 15:27:22.180707",
   "name": "Website Settings",
   "navbar_search": 0,
   "navbar_template": null,
@@ -38,7 +38,7 @@
   "route_redirects": [],
   "show_account_deletion_link": 0,
   "show_language_picker": 0,
-  "splash_image": null,
+  "splash_image": "https://media.istockphoto.com/id/1180882238/vector/success-logo.jpg?s=612x612&w=0&k=20&c=brO28PRCR_73Oj-qVIGDzYxfDwZj17t7VrLb-JiGH2Q=",
   "subdomain": null,
   "title_prefix": "",
   "top_bar_items": [

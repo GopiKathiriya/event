@@ -1,10 +1,16 @@
-# Copyright (c) 2023, frappe and contributors
-# For license information, please see license.txt
+# # Copyright (c) 2023, frappe and contributors
+# # For license information, please see license.txt
 
 import frappe
 from frappe.model.document import Document
 
-#on_trash event
+class CustomType(Document):
+    def on_trash(self):
+        frappe.msgprint(f"'Custom Type' {self.name} is being deleted!")
+def get_class():
+    return CustomType
+
+
 class CustomType(Document):
     def on_trash(self):
         frappe.msgprint(f"'Custom Type' {self.name} is being deleted!")
@@ -34,6 +40,7 @@ def get_class():
         
 #         if self.last_name == "invalid_value":
 #             frappe.throw(("Invalid value for 'last_name'. Please provide a valid value."))
+
 
 
 # def get_class():
