@@ -149,9 +149,9 @@ scheduler_events = {
     # "all": [
 	# 	"event.tasks.all"
 	# ],
-	"daily": [
-		"event.templates.tasks.daily"
-	],
+	# "daily": [
+	# 	"event.templates.tasks.daily"
+	# ],
 	# "hourly": [
 	# 	"event.templates.tasks.corn"
     
