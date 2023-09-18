@@ -76,12 +76,21 @@
    "fieldname": "maximum_limit",
    "fieldtype": "Data",
    "label": "Maximum Limit"
+
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nPending\nApproved\nRejected",
+   "read_only": 1
+
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-09-18 17:03:31.112385",
+
  "modified_by": "Administrator",
  "module": "event",
  "name": "Custom Type",
