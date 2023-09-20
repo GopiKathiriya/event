@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Student-.##",
+ "creation": "2023-09-20 11:12:23.059061",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "stud_name",
+  "stud_email",
+  "stud_contact",
+  "payment_method"
+ ],
+ "fields": [
+  {
+   "fieldname": "stud_name",
+   "fieldtype": "Link",
+   "label": "Stud Name",
+   "options": "Student"
+  },
+  {
+   "fetch_from": "stud_name.stud_email",
+   "fieldname": "stud_email",
+   "fieldtype": "Data",
+   "label": "Stud Email"
+  },
+  {
+   "fetch_from": "stud_name.stud_contact",
+   "fieldname": "stud_contact",
+   "fieldtype": "Data",
+   "label": "Stud Contact"
+  },
+  {
+   "fieldname": "payment_method",
+   "fieldtype": "Select",
+   "label": "Payment_method",
+   "options": "\nCash On Delivery\nOnline"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-20 11:17:16.936440",
+ "modified_by": "Administrator",
+ "module": "event",
+ "name": "Fees Structure",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

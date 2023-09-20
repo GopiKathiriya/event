@@ -12,12 +12,14 @@
   "last_name",
   "full_name",
   "date_of_birth",
-  "status",
   "age",
+  "column_break_9vfat",
+  "address",
+  "status",
   "total_amount",
-  "custom_feild",
+  "maximum_limit",
   "amended_from",
-  "maximum_limit"
+  "custom_feild"
  ],
  "fields": [
   {
@@ -31,8 +33,10 @@
    "label": "Last Name"
   },
   {
+   "fetch_from": "amended_from.first_name",
    "fieldname": "full_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Full Name",
    "unique": 1
   },
@@ -42,10 +46,11 @@
    "label": "Date Of Birth"
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "Draft\nPending\nApproved\nRejected",
+   "options": "\nDraft\nPending\nApproved\nRejected",
    "read_only": 1
   },
   {
@@ -76,21 +81,29 @@
    "fieldname": "maximum_limit",
    "fieldtype": "Data",
    "label": "Maximum Limit"
-
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "Draft\nPending\nApproved\nRejected",
+   "options": "\nDraft\nPending\nApproved\nRejected",
    "read_only": 1
-
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "column_break_9vfat",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
-
+ "modified": "2023-09-20 10:45:33.342080",
  "modified_by": "Administrator",
  "module": "event",
  "name": "Custom Type",
@@ -120,7 +133,21 @@
    "read": 1,
    "report": 1,
    "role": "custom manager",
+   "select": 1,
    "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "cancel": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Hr",
+   "share": 1,
+   "submit": 1,
    "write": 1
   }
  ],

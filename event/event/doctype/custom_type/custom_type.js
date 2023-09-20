@@ -5,7 +5,16 @@
 
 frappe.ui.form.on('Custom Type', {
 	
-// 		  refresh: function(frm) {
+	  refresh: function(frm) {
+        frm.add_custom_button(__('Create A User'), function(){
+          frappe.new_doc('User',{
+            custom_type: frm.doc.name
+          })
+        }) 
+
+
+    
+      }
 // 			frm.fields_dict['date_of_birth'].df.onchange = function() {
 // 				var date_of_birth = frm.doc.date_of_birth;
 // 				if (date_of_birth) {	
@@ -142,7 +151,7 @@ frappe.ui.form.on('Custom Type', {
 
 // frappe.ui.form.on('My Custom DocType', {
 //     form_render: function(frm) {
-//         frappe.msgprint('Form has been rendered for My Custom DocType');
-//     }
-});
+//         frappe.msgprint('Form has been rendered for My Custom DocType')
+ }
+);
 

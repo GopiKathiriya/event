@@ -11,7 +11,8 @@
   "employee_name",
   "is_active",
   "status",
-  "amended_from"
+  "amended_from",
+  "full_name"
  ],
  "fields": [
   {
@@ -40,12 +41,17 @@
    "options": "Employee1",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-09-18 10:34:42.222707",
+ "modified": "2023-09-20 10:44:06.962373",
  "modified_by": "Administrator",
  "module": "event",
  "name": "Employee1",

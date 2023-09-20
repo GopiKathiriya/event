@@ -100,9 +100,9 @@ web_include_css = "/assets/event/css/event.css"
 # Permissions evaluated in scripted ways
 
 # permission_query_conditions = {
-#	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
+# 	"Custom Type": "permission.get_permission_query_for_examresult",
 # }
-#
+# #
 # has_permission = {
 #	"Event": "frappe.desk.doctype.event.event.has_permission",
 # }
