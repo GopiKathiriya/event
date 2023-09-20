@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Student-{stud_name}-{##}",
+ "creation": "2023-09-20 11:03:40.091792",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "stud_name",
+  "stud_gender",
+  "stud_email",
+  "section_break_zeqta",
+  "stud_standard",
+  "stud_address",
+  "stud_contact"
+ ],
+ "fields": [
+  {
+   "fieldname": "stud_name",
+   "fieldtype": "Data",
+   "label": "Stud Name"
+  },
+  {
+   "fieldname": "stud_gender",
+   "fieldtype": "Data",
+   "label": "Stud Gender"
+  },
+  {
+   "fieldname": "stud_email",
+   "fieldtype": "Data",
+   "label": "Stud Email"
+  },
+  {
+   "fieldname": "stud_standard",
+   "fieldtype": "Int",
+   "label": "Stud Standard"
+  },
+  {
+   "fieldname": "stud_address",
+   "fieldtype": "Data",
+   "label": "Stud Address"
+  },
+  {
+   "fieldname": "stud_contact",
+   "fieldtype": "Phone",
+   "label": "Stud Contact"
+  },
+  {
+   "fieldname": "section_break_zeqta",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-20 11:06:37.866035",
+ "modified_by": "Administrator",
+ "module": "event",
+ "name": "Student",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
